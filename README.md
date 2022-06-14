@@ -7,21 +7,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/capcodigital/oss-template">
+  <a href="https://github.com/capcodigital/engineering-webstite">
     <img src="https://raw.githubusercontent.com/capcodigital/.github/master/images/capco.jpeg" alt="Logo" height="160px">
   </a>
-  <h3 align="center">[PROJECT_TITLE]</h3>
+  <h3 align="center">Engineering Website</h3>
   <p align="center">
-    [PROJECT_DESCRIPTION]
-    <br />
-    <a href="https://github.com/capcodigital/oss-template"><strong>Explore the docs »</strong></a>
-    <br />
+    A central space to collate all Capco Engineering information sources.
     <br />
     <a href="https://github.com/capcodigital/oss-template">View Demo</a>
     ·
-    <a href="https://github.com/capcodigital/oss-template/issues">Report Bug</a>
+    <a href="https://github.com/capcodigital/engineering-webstite/issues">Report Bug</a>
     ·
-    <a href="https://github.com/capcodigital/oss-template/issues">Request Feature</a>
+    <a href="https://github.com/capcodigital/engineering-webstite/issues">Request Feature</a>
   </p>
 </p>
 
@@ -47,16 +44,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The repo description should be added here and describe at least:
-
-* Purpose of the repo e.g. problem/opportunity statement
-* High level description of the overall approach/solution
+A central space to collate all Capco Engineering information sources. Aimed at clients, candidates and internal employees alike.
 
 ## Built With
 
-Further logos should be inserted to highlight the specific technologies used to create the solution from [here](https://github.com/Ileriayo/markdown-badges).
+<!-- Further logos should be inserted to highlight the specific technologies used to create the solution from [here](https://github.com/Ileriayo/markdown-badges). -->
 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![react](https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white)
 
 ## Getting Started
 
