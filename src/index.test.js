@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 import App from "./containers/App/App";
 
 // mocks react-dom and its render method
-// jest.mock("react-dom/client", () => ({ render: jest.fn() }));
-jest.mock("react-dom/client", () => ({ 
-    createRoot: jest.fn().mockImplementation(() => ({
-        render: jest.fn() 
-    }))
-}));
+jest.mock("react-dom/client", () => ({ render: jest.fn() }));
+// jest.mock("react-dom/client", () => ({ 
+//     createRoot: jest.fn().mockImplementation(() => ({
+//         render: jest.fn() 
+//     }))
+// }));
 
 it("should render App container", () => {
     const root = document.createElement("div");
