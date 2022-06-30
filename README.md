@@ -42,7 +42,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/capcodigital/engineering-webstite/main/images/screenshot.png)
 
 A central space to collate all Capco Engineering information sources. Aimed at clients, candidates and internal employees alike.
 
