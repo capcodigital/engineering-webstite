@@ -2,9 +2,11 @@ import React from 'react';
 import NavBar from '../../components/NavBar';
 import HeroComponent from '../../components/HeroComponent';
 import ExploreSection from '../ExploreSection';
-import OpenRoleSetion from '../OpenRoleSetion';
+import OpenRoleSection from '../OpenRoleSection';
 import EventSection from '../EventsSection';
 import CultureSection from '../CultureSection';
+import ContactSection from '../ContactSection';
+import FooterComponent from '../../components/FooterComponent';
 
 function Home() {
   return (
@@ -12,9 +14,11 @@ function Home() {
         <NavBar />
         <HeroComponent />
         <ExploreSection />
-        <OpenRoleSetion bgColor={'#000000'}/>
-        <EventSection bgColor={'#F5F5F5'}/>
+        <OpenRoleSection/>
+        <EventSection/>
         <CultureSection />
+        <ContactSection />
+        <FooterComponent />
     </div>
   )
 }

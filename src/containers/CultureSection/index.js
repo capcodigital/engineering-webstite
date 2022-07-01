@@ -1,21 +1,24 @@
-import React from 'react'
+import React from 'react';
+import Wrapper from './styles';
 
 function CultureSection() {
   return (
-    <div>
-        <p>You’re in good company</p>
-        <p>Meet some of the team that help to create our team culture and ...</p>
-        <div style={{ margin: 'auto',maxWidth: '900px', display: 'flex', }}>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between' }}>1</div>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>2</div>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>3</div>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>4</div>
-            <div style={{width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>5</div>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>6</div>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>7</div>
-            <div style={{ width: '250px', height: '100px', backgroundColor: 'grey', justifyContent: 'space-between'}}>8</div>
+    <Wrapper>
+      <div className='culture-container'>
+        <p className='culture-title'>You’re in good company</p>
+        <p className='culture-subtitle'>Meet some of the team that help to create our team culture and ...</p>
+        <div className='culture-employees'>
+            <div className='culture-employee'>1</div>
+            <div className='culture-employee'>3</div>
+            <div className='culture-employee'>2</div>
+            <div className='culture-employee'>4</div>
+            <div className='culture-employee'>5</div>
+            <div className='culture-employee'>6</div>
+            <div className='culture-employee'>7</div>
+            <div className='culture-employee'>8</div>
         </div>
-    </div>
+      </div>
+    </Wrapper>
   )
 }
 
