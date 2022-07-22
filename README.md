@@ -1,132 +1,70 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+# Getting Started with Create React App
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/capcodigital/engineering-webstite">
-    <img src="https://raw.githubusercontent.com/capcodigital/.github/master/images/capco.jpeg" alt="Logo" height="160px">
-  </a>
-  <h3 align="center">Engineering Website</h3>
-  <p align="center">
-    A central space to collate all Capco Engineering information sources.
-    <br />
-    <a href="https://github.com/capcodigital/oss-template">View Demo</a>
-    ·
-    <a href="https://github.com/capcodigital/engineering-webstite/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/capcodigital/engineering-webstite/issues">Request Feature</a>
-  </p>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<details>
-  <summary>Contents</summary>
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Available Scripts
 
-- [About The Project](#about-the-project)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Local Dependencies](#local-dependencies)
-  - [Local Setup](#local-setup)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
+In the project directory, you can run:
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-</details>
+### `npm start`
 
-## About The Project
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-A central space to collate all Capco Engineering information sources. Aimed at clients, candidates and internal employees alike.
+### `npm test`
 
-## Built With
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<!-- Further logos should be inserted to highlight the specific technologies used to create the solution from [here](https://github.com/Ileriayo/markdown-badges). -->
+### `npm run build`
 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![react](https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-To get a local copy up and running follow these simple steps.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Local Dependencies
+### `npm run eject`
 
-A number of local dependencies are required.  To review the local dependencies:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-* When using MacOS run `make requirements`
-* otherwise run `cat Brewfile` to inspect the requirements
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-If additional dependencies are required they should be added to `Brewfile`, for more details please review the official `brew bundle` documentation [here](https://github.com/Homebrew/homebrew-bundle).
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### Local Setup
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This repo follows the principle of minimal manual setup of the local development environment.
+## Learn More
 
- A `make` target has been provided for simplicity ```make init```, the `make` file can be inspected for more details.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
- ```shell
-# use the folder name as the repo name
-make init
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-# explicitly pass in the repo name (e.g. my-service)
-make repo=my-service init
-```
+### Code Splitting
 
-If at any point the repo name needs to be changed then the `make rename` target can be called.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-```shell
-make repo=my-service rename
-```
+### Analyzing the Bundle Size
 
-## Usage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Making a Progressive Web App
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Roadmap
+### Advanced Configuration
 
-See the [open issues](https://github.com/capcodigital/oss-template/issues) for a list of proposed features (and known issues).
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## Contributing
+### Deployment
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+### `npm run build` fails to minify
 
-If you would like to contribute to any Capco Digital OSS projects please read:
-
-* [Code of Conduct](https://github.com/capcodigital/.github/blob/master/CODE_OF_CONDUCT.md)
-* [Contributing Guidelines](https://github.com/capcodigital/.github/blob/master/CONTRIBUTING.md)
-
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-* [Best README Template](https://github.com/othneildrew/Best-README-Template)
-* [Markdown Badges](https://github.com/Ileriayo/markdown-badges)
-* [DocToc](https://github.com/thlorenz/doctoc)
-
-[contributors-shield]: https://img.shields.io/github/contributors/capcodigital/oss-template.svg?style=for-the-badge
-[contributors-url]: https://github.com/capcodigital/oss-template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/capcodigital/oss-template.svg?style=for-the-badge
-[forks-url]: https://github.com/capcodigital/oss-template/network/members
-[stars-shield]: https://img.shields.io/github/stars/capcodigital/oss-template.svg?style=for-the-badge
-[stars-url]: https://github.com/capcodigital/oss-template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/capcodigital/oss-template.svg?style=for-the-badge
-[issues-url]: https://github.com/capcodigital/oss-template/issues
-[license-shield]: https://img.shields.io/github/license/capcodigital/oss-template.svg?style=for-the-badge
-[license-url]: https://github.com/capcodigital/oss-template/blob/master/LICENSE
-[product-screenshot]: images/screenshot.png
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

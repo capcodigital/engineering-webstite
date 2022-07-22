@@ -1,0 +1,45 @@
+import React from 'react'
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import Logo from '../../images/capco-logo.png';
+import Wrapper from './styles';
+
+const darkTheme = createTheme({
+    palette: {
+      mode: 'dark',
+      primary: {
+        main: '#1976d2',
+      },
+    },
+  });
+
+function NavBar() {
+  return (
+    <Wrapper>
+        <ThemeProvider theme={darkTheme}>
+            <Box sx={{ flexGrow: 1 }}>
+            <AppBar position="static">
+                <Toolbar>
+                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                    <div className='logo-container'>
+                        <img className="capco-logo" src={Logo} alt="logo"/>
+                        <span className="logo-text">Engineering</span>
+                    </div>
+                </Typography>
+                    <Button color="inherit" className="nav-links">Capabilities</Button>
+                    <Button color="inherit" className="nav-links">Team</Button>
+                    <Button color="inherit" className="nav-links">Career</Button>
+                    <Button color="inherit" className="nav-links">Articles</Button>
+                    <Button color="inherit" className="nav-links">Capco.com</Button>
+                </Toolbar>
+            </AppBar>
+            </Box>
+        </ThemeProvider>
+    </Wrapper>
+  )
+}
+export default NavBar;
